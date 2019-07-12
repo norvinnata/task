@@ -1,0 +1,72 @@
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+body {
+    background-color: aqua;
+}
+
+input.btn{
+    color: black;
+    background: white;
+    border: 1px outset white;
+    font-family: "calibri", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    width : auto;
+}
+
+form{
+    width : 400px;
+    height: 450px;
+    background-color: honeydew;
+    margin: 80px auto;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 50px 4px teal;
+    text-align: center;
+}
+
+p {
+    font-size-adjust: 12px;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: black;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s 
+}
+.btnnorvin{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent ;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s 
+}
+
