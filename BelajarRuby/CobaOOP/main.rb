@@ -1,4 +1,4 @@
-load "darat.rb"
+load "Darat.rb"
 load "Air.rb"
 load "Udara.rb"
 
