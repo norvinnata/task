@@ -63,6 +63,7 @@ class HitungLuas
 end
 
 if __FILE__ == $0
+loop do
     hl = HitungLuas.new
 
     puts "Pilih Bangun yang Ingin di Hitung :"
@@ -94,39 +95,7 @@ if __FILE__ == $0
 
     puts "Ingin Menghitung Luas Lagi? [Y=1/T=2]"
     choice = gets.to_i
-    until choice == 2
-
-
-
-
-    puts "Pilih Bangun yang Ingin di Hitung :"    
-    puts "1.Hitung Luas Segitiga"
-    puts "2.Hitung Luas Lingkaran"
-    puts "3.Hitung Luas Persegi Panjang"
-    puts "4.Hitung Luas Limas"
-    puts "5.Hitung Luas Balok"
-    puts "6.Hitung Luas Bola"
-    
-    menu = gets.to_i
-    
-    if menu == 1
-         hl.segitiga
-    elsif menu == 2
-         hl.lingkaran
-    elsif menu == 3
-         hl.persegipanjang
-    elsif menu == 4
-         hl.limas
-    elsif menu == 5
-         hl.balok
-    elsif menu == 6
-         hl.bola
-    else puts "Masukkan Pilihan yang Benar!!!"
-    end
-
-    puts "Ingin Menghitung Luas Lagi? [Y=1/T=2]"
-    choice = gets.to_i
-    
+    break if choice == 2
 end
 
 end
