@@ -1,6 +1,6 @@
-load "Darat.rb"
-load "Air.rb"
-load "Udara.rb"
+require_relative "Jenis/Darat"
+require "./Jenis/Air.rb"
+load "Jenis/Udara.rb"
 
 choice = 1
   while choice == 1
